@@ -1,0 +1,80 @@
+<html>
+	<head>
+	<style>
+		nav{
+			background-color:purple;
+			width:50%;
+			float:right;
+		}
+		header{
+			background-color:red;
+			width:100%;
+			text-align:center;
+		}
+		aside{
+			background-color:orange;
+			width:30%;
+			float:left;
+			height:600px;
+		}
+		article{
+			background-color:green;
+			width:70%;
+			float:left;
+			height:600px;
+		}
+		footer{
+			background-color:blue;
+			width:100%;
+			text-align:center;
+			position:fixed;
+			bottom:0;
+		}
+			
+	</style>
+	</head>
+	<body>
+		<nav>
+		<input list="tcontent" />
+			<datalist id="tcontent" >
+				<option value="射擊遊戲">
+				<option value="角色扮演">
+				<option value="鬥塔遊戲">
+				<option value="益智遊戲">
+			</datalist>
+		</nav>
+		<header>
+		遊戲介紹
+		</header>
+		<details>
+				<summary>遊戲類別</summary>
+				<p>
+					<details>
+						<summary>射擊遊戲</summary>
+						<p>
+							<a href ="sf.html" target="article">sf</a>
+						</p>
+						<p>
+							<a href ="cs.html" target="article">cs</a>
+						</p>
+					</details>
+				</p>
+				<p>
+					<a href ="figure.html" target="article">角色扮演</a>
+				</p>
+				<p>
+					<a href ="dialog.html" target="article">鬥塔遊戲</a>
+				</p>
+				<p>
+					<a href ="wbr.html" target="article">益智遊戲</a>
+				</p>
+			</details>
+		</aside>
+		<article>
+			<iframe width="100%" height="600px" name="article"><iframe>
+		</article>
+		<footer>
+		頁尾
+		</footer>
+	</body>
+</html>
